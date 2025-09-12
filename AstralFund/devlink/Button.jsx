@@ -4,7 +4,7 @@ import * as _Builtin from "./_Builtin";
 import { Icon } from "./Icon";
 import * as _utils from "./utils";
 import _styles from "./Button.module.css";
-import { HugeiconsFreeIcons } from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from '@hugeicons/react';
 
 export function Button({
   as: _Component = _Builtin.Link,
