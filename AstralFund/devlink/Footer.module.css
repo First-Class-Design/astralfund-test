@@ -187,6 +187,11 @@
   text-decoration: none;
 }
 
+.button:where(.w-variant-099de269-1e2b-093c-e988-92032c30d6a6) {
+  background-color: var(--gray-800);
+  color: var(--white);
+}
+
 .button:hover {
   border-color: var(--yellowGreen700-c4be53de);
   background-color: hsla(93.6986301369863, 0.00%, 69.33%, 1.00);

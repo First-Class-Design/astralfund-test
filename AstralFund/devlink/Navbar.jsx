@@ -17,6 +17,22 @@ export function Navbar({
   navbarLinkContact = "Contact",
   buttonTextGetStarted = "Get started",
   localeDropdownSlot,
+
+  navLink01 = {
+    href: "#",
+  },
+
+  navLink02 = {
+    href: "/investment-strategies",
+  },
+
+  navLink03 = {
+    href: "#",
+  },
+
+  navLink04 = {
+    href: "/contact-us",
+  },
 }) {
   _interactions.useInteractions(_interactionsData, _styles);
 
@@ -73,33 +89,25 @@ export function Navbar({
             >
               <_Builtin.NavbarLink
                 className={_utils.cx(_styles, "navbar-link")}
-                options={{
-                  href: "#",
-                }}
+                options={navLink01}
               >
                 {navbarLinkFeatures}
               </_Builtin.NavbarLink>
               <_Builtin.NavbarLink
                 className={_utils.cx(_styles, "navbar-link")}
-                options={{
-                  href: "/investment-strategies",
-                }}
+                options={navLink02}
               >
                 {navbarLinkProducts}
               </_Builtin.NavbarLink>
               <_Builtin.NavbarLink
                 className={_utils.cx(_styles, "navbar-link")}
-                options={{
-                  href: "#",
-                }}
+                options={navLink03}
               >
                 {navbarLinkResources}
               </_Builtin.NavbarLink>
               <_Builtin.NavbarLink
                 className={_utils.cx(_styles, "navbar-link")}
-                options={{
-                  href: "/contact-us",
-                }}
+                options={navLink04}
               >
                 {navbarLinkContact}
               </_Builtin.NavbarLink>
