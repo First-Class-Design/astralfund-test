@@ -1,9 +1,8 @@
 import * as React from "react";
 import * as Types from "./types";
 
-declare function Icon(props: {
+declare function IconSize(props: {
   as?: React.ElementType;
   iconClass?: Types.Builtin.Text;
-  colour?: "Primary" | "Secondary";
-  size?: "Base" | "SM" | "MD" | "LG" | "XL";
+  variant?: "Base" | "SM" | "MD" | "LG" | "XL";
 }): React.JSX.Element;

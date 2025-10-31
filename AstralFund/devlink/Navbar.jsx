@@ -17,22 +17,7 @@ export function Navbar({
   navbarLinkContact = "Contact",
   buttonTextGetStarted = "Get started",
   localeDropdownSlot,
-
-  navLink01 = {
-    href: "#",
-  },
-
-  navLink02 = {
-    href: "/investment-strategies",
-  },
-
-  navLink03 = {
-    href: "#",
-  },
-
-  navLink04 = {
-    href: "/contact-us",
-  },
+  slot,
 }) {
   _interactions.useInteractions(_interactionsData, _styles);
 
@@ -75,7 +60,7 @@ export function Navbar({
               role="img"
               data-caption="Astral fund logo"
               alt=""
-              src="https://cdn.prod.website-files.com/68a449685e562328d28912ee/68a449695e562328d2891368_AstralFund%20Logo.svg"
+              src="https://cdn.prod.website-files.com/68c2d165e85538a647f9a760/68c2d167e85538a647f9a899_AstralFund%20Logo.svg"
             />
           </_Builtin.NavbarBrand>
           <_Builtin.NavbarMenu
@@ -89,25 +74,33 @@ export function Navbar({
             >
               <_Builtin.NavbarLink
                 className={_utils.cx(_styles, "navbar-link")}
-                options={navLink01}
+                options={{
+                  href: "#",
+                }}
               >
                 {navbarLinkFeatures}
               </_Builtin.NavbarLink>
               <_Builtin.NavbarLink
                 className={_utils.cx(_styles, "navbar-link")}
-                options={navLink02}
+                options={{
+                  href: "/investment-strategies",
+                }}
               >
                 {navbarLinkProducts}
               </_Builtin.NavbarLink>
               <_Builtin.NavbarLink
                 className={_utils.cx(_styles, "navbar-link")}
-                options={navLink03}
+                options={{
+                  href: "#",
+                }}
               >
                 {navbarLinkResources}
               </_Builtin.NavbarLink>
               <_Builtin.NavbarLink
                 className={_utils.cx(_styles, "navbar-link")}
-                options={navLink04}
+                options={{
+                  href: "/contact-us",
+                }}
               >
                 {navbarLinkContact}
               </_Builtin.NavbarLink>
@@ -115,39 +108,7 @@ export function Navbar({
             <_Builtin.Block
               className={_utils.cx(_styles, "navbar-menu-right")}
               tag="div"
-            >
-              <_Builtin.Block
-                className={_utils.cx(_styles, "navbar-button-wrapper")}
-                tag="div"
-              >
-                <_Builtin.Link
-                  className={_utils.cx(
-                    _styles,
-                    "button-secondary",
-                    "show-tablet"
-                  )}
-                  button={false}
-                  block="inline"
-                  options={{
-                    href: "#",
-                  }}
-                >
-                  <_Builtin.Block tag="div">{"Log in"}</_Builtin.Block>
-                </_Builtin.Link>
-                <_Builtin.Link
-                  className={_utils.cx(_styles, "button")}
-                  button={false}
-                  block="inline"
-                  options={{
-                    href: "#",
-                  }}
-                >
-                  <_Builtin.Block tag="div">
-                    {buttonTextGetStarted}
-                  </_Builtin.Block>
-                </_Builtin.Link>
-              </_Builtin.Block>
-            </_Builtin.Block>
+            />
           </_Builtin.NavbarMenu>
           <_Builtin.NavbarButton
             className={_utils.cx(_styles, "navbar-menu-button")}

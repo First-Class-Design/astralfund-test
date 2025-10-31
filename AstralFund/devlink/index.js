@@ -13,5 +13,6 @@ export * from "./Button";
 export * from "./DevLinkProvider";
 export * from "./Footer";
 export * from "./Icon";
+export * from "./IconSize";
 export * from "./LocaleDropdown";
 export * from "./Navbar";

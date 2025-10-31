@@ -19,8 +19,14 @@
   text-decoration: none;
 }
 
-.button:where(.w-variant-099de269-1e2b-093c-e988-92032c30d6a6) {
+.button:where(.w-variant-38771eac-3914-da95-803c-c9dc9893617f) {
   background-color: var(--gray-800);
+  color: var(--white);
+}
+
+.button:where(.w-variant-0317a013-7a85-74c2-8e26-c02dc917c9f4) {
+  border: 1px solid var(--white);
+  background-color: hsla(93.57798165137613, 0.00%, 100.00%, 0.00);
   color: var(--white);
 }
 
@@ -51,4 +57,22 @@
 
 .btn_icon-wrap {
   max-width: 1.5em;
+}
+
+.btn_icon-wrap:where(.w-variant-38771eac-3914-da95-803c-c9dc9893617f) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-color {
+  display: inline-flex;
+  color: inherit;
+}
+
+.icon {
+  display: inline-flex;
+  width: 1em;
+  font-size: 1em;
+  font-style: normal;
 }

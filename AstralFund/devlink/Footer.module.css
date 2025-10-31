@@ -13,7 +13,7 @@
 .section.hero {
   padding-top: 64px;
   padding-bottom: 64px;
-  background-image: url("https://cdn.prod.website-files.com/68a449685e562328d28912ee/68a449695e562328d2891378_Localization%20Demo.svg");
+  background-image: url("https://cdn.prod.website-files.com/68c2d165e85538a647f9a760/68c2d167e85538a647f9a8a9_Localization%20Demo.svg");
   background-position: 0% 100%;
   background-size: cover;
 }
@@ -26,7 +26,7 @@
   overflow: hidden;
   padding-bottom: 0px;
 
-  background-image: url("https://cdn.prod.website-files.com/68a449685e562328d28912ee/68a449695e562328d2891371_Background-CTA2.svg");
+  background-image: url("https://cdn.prod.website-files.com/68c2d165e85538a647f9a760/68c2d167e85538a647f9a8a2_Background-CTA2.svg");
   background-position: 50% 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -187,8 +187,14 @@
   text-decoration: none;
 }
 
-.button:where(.w-variant-099de269-1e2b-093c-e988-92032c30d6a6) {
+.button:where(.w-variant-38771eac-3914-da95-803c-c9dc9893617f) {
   background-color: var(--gray-800);
+  color: var(--white);
+}
+
+.button:where(.w-variant-0317a013-7a85-74c2-8e26-c02dc917c9f4) {
+  border: 1px solid var(--white);
+  background-color: hsla(93.57798165137613, 0.00%, 100.00%, 0.00);
   color: var(--white);
 }
 

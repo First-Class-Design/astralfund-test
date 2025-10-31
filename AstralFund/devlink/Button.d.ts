@@ -4,9 +4,11 @@ import * as Types from "./types";
 declare function Button(props: {
   as?: React.ElementType;
   text?: React.ReactNode;
-  tailIcon?: Types.Visibility.VisibilityConditions;
-  leadIcon?: Types.Visibility.VisibilityConditions;
+  iconLeadIcon?: Types.Visibility.VisibilityConditions;
   iconLeadIconClass?: Types.Builtin.Text;
-  iconTailIconClass?: Types.Builtin.Text;
-  variant?: "Base" | "Secondary";
+  iconTailIcon?: Types.Visibility.VisibilityConditions;
+  buttonText?: React.ReactNode;
+  buttonLink?: Types.Basic.Link;
+  variant?: "Primary" | "Secondary" | "Outlined";
+  iconRightIconSlot?: Types.Devlink.Slot;
 }): React.JSX.Element;

@@ -10,9 +10,9 @@ const ClickCounter = () => {
             <div onClick={() => setCount(count + 1)}>
                 <Button
                     variant='Secondary'
-                    leadIcon={true}
+                    iconLeadIcon={true}
                     iconLeadIconClass={MouseLeftClick06Icon}
-                    text="Click Me"
+                    buttonText="Click Me"
                 />
             </div>
             <p>Clicked {count} times</p>

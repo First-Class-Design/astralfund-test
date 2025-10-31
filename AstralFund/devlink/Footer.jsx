@@ -33,7 +33,7 @@ export function Footer({ as: _Component = _Builtin.Section }) {
                 width="auto"
                 height="auto"
                 alt=""
-                src="https://cdn.prod.website-files.com/68a449685e562328d28912ee/68a449695e562328d2891368_AstralFund%20Logo.svg"
+                src="https://cdn.prod.website-files.com/68c2d165e85538a647f9a760/68c2d167e85538a647f9a899_AstralFund%20Logo.svg"
               />
             </_Builtin.NavbarBrand>
             <_Builtin.Block
