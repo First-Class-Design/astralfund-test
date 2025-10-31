@@ -13,6 +13,9 @@ const ClickCounter = () => {
                     iconLeadIcon={true}
                     iconLeadIconClass={MouseLeftClick06Icon}
                     buttonText="Click Me"
+                    iconRightIconSlot={
+                        <HugeiconsIcon icon={MouseLeftClick06Icon} size={16} />
+                    }
                 />
             </div>
             <p>Clicked {count} times</p>
